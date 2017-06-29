@@ -1,0 +1,17 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "browsers": ["chrome 58"],
+        "node": "current"
+      },
+      "modules": "commonjs"
+    }]
+  ],
+  "plugins": [
+    "babel-plugin-transform-class-properties",
+    "babel-plugin-transform-object-rest-spread",
+    "babel-plugin-transform-decorators",
+    "babel-plugin-transform-react-jsx"
+  ]
+}
